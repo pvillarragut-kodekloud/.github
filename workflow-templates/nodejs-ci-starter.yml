@@ -3,7 +3,7 @@ name: Organization NodeJS CI
 on:
   push:
     branches:
-      - 'main'
+      - $default-branch
 
 jobs:
     build:
